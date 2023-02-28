@@ -1,0 +1,298 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('/html/css/Roboto/Roboto-Regular.ttf') format('truetype'); /* change the path and file name to match your font file */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+body {
+  background-size: contain;
+  background-image: url("fondo3.png");
+  background-position: top;
+  background-repeat: repeat;
+  background-color: rgb(35, 33, 33);
+  font-family: 'Roboto', sans-serif;
+  transition: 0.5s ease-out;
+  filter: none;
+}
+
+
+#imagenMain {
+  border-radius: 10px;
+  transform: translateY(1.5%);
+  overflow: auto;
+}
+
+.imagenMain {
+  display: block;
+  width: max-content;
+  overflow: visible;
+  position: relative;
+  margin: auto;
+  border: 3px solid #000000;
+  padding: 0;
+  border-radius: 10px;
+  transform: translate(-250%, -430%);
+  box-shadow: 12px 12px 6px 0 #000;
+  z-index: 4;
+}
+
+.cabecera {
+  display: block;
+  overflow: visible;
+  width: max-content;
+  position: relative;
+  font-size: 20px;
+  margin: auto;
+  padding: 2px;
+  background: linear-gradient(rgb(0, 0, 0), rgb(82, 82, 82));
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 2px solid #000000;
+  box-shadow: 12px 12px 6px 0 #000;
+  transform: rotate(-5deg) translate(-45%, 30%);
+  z-index: 3;
+  transition: 0.3s;
+}
+.cabecera:hover {
+  letter-spacing: 8px;
+  color: #000000;
+  text-shadow: 0 0 10px #fff,
+              0 0 20px #ffffff,
+              0 0 40px #ffffff,
+              0 0 80px #ffffff,
+              0 0 120px #ffffff,
+              0 0 160px #ffffff,
+              0 0 200px #ffffff;
+  background-color: #000000;
+
+}
+
+
+
+/*Diseño de fondo*/
+
+
+.bloqueFondo1 {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  transform: rotate(45deg) translate(50%, 50%);
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(gray, white);
+  border: #000 solid;
+  border-radius: 10px;
+  box-shadow: 12px 12px 6px 0 #000;
+  z-index: 1;
+}
+
+.bloqueFondo2 {
+  display: block;
+  overflow: visible;
+  position: relative;
+  margin: auto;
+  transform: rotate(45deg) translate(-60%, 130%);
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(white, gray);
+  border: #000 solid;
+  border-radius: 10px;
+  box-shadow: 12px 12px 6px 0 #000;
+  z-index: 1;
+}
+
+.bloqueFondo3 {
+  display: block;
+  overflow: visible;
+  position: relative;
+  margin: auto;
+  transform: /*rotate(45deg)*/ translate(130%, -50%);
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(white, gray);
+  border: #000 solid;
+  border-radius: 10px;
+  box-shadow: 12px 12px 6px 0 #000;
+  z-index: 1;
+}
+
+.bloqueFondo4 {
+  display: block;
+  overflow: visible;
+  position: relative;
+  margin: auto;
+  transform: rotate(45deg) translate(-160%, -455%);
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(rgb(0, 0, 0), rgb(138, 46, 191));
+  border: #000 solid;
+  border-radius: 10px;
+  box-shadow: 12px 12px 6px 0 #000;
+  z-index: 1;
+}
+
+.bloqueFondo5 {
+  display: block;
+  overflow: visible;
+  position: relative;
+  margin: auto;
+  transform: rotate(45deg) translate(-200%, -150%);
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(rgb(0, 0, 0), rgb(138, 46, 191));
+  border: #000 solid;
+  border-radius: 10px;
+  box-shadow: 12px 12px 6px 0 #000;
+  z-index: 7;
+}
+
+/*Botones*/
+
+button{
+  transition: 0.5s;
+  cursor: pointer;
+}
+button:hover {
+  color: #fff;
+  letter-spacing: 0.1px;
+  text-shadow: 0 0 10px #000000,
+              0 0 20px #000000,
+              0 0 40px #000000,
+              0 0 80px #000000,
+              0 0 120px #000000,
+              0 0 160px #000000;
+}
+
+
+#boton-presentacion {
+  display: flex;
+  position: relative;
+  overflow: auto;
+  margin: auto;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  z-index: 5;
+  transform: translate(-160%,-1350%);
+}
+
+
+#boton-experiencia {
+  display: block;
+  position: relative;
+  margin: auto;
+  overflow: auto;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  z-index: 5;
+  transform: translateY(-635%);
+}
+
+#boton-datosPersonales {
+  display: block;
+  position: relative;
+  overflow: auto;
+  margin: auto;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  z-index: 5;
+  transform: translate(136%,-1070%);
+}
+
+#boton-redes {
+  display: flex;
+  position: relative;
+  margin: auto;
+  overflow: auto;
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  z-index: 7;
+  transform: translate(-37%, -1960%);
+  
+}
+
+#btnCerrar {
+  display: none;
+  position: relative;
+  margin: auto;
+  overflow: auto;
+  border-radius: 50%;
+  font-size: 25px;
+  background-color: #959595;
+  opacity: 80%;
+  z-index: 9;
+  color: #000;
+  transform: translate(160%, -3250%);
+}
+
+
+/*Bloques de información*/
+
+#presentacionMain {
+  box-shadow: 12px 12px 6px 0px #000;
+  display: none;
+  overflow: auto;
+  position: relative;
+  text-align: center;
+  transform: translate(65%,-490%);
+  z-index: 9;
+  width: 500px;
+  height: max-content;
+  background: linear-gradient(rgb(239, 239, 239), rgb(98, 96, 96));
+  color: rgb(9, 7, 15);
+  font-size: 20px;
+  border: 2px solid #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+  border-radius: 10px;
+  filter: none;
+}
+
+#infoExp {
+  display: none;
+  position: relative;
+  box-shadow: 12px 12px 6px 0px #000;
+  z-index: 9;
+  width: 500px;
+  height: max-content;
+  background: linear-gradient(rgb(239, 239, 239), rgb(98, 96, 96));
+  height: max-content;
+  color: rgb(9, 7, 15);
+  padding-left: 20px;
+  padding-right: 20px;
+  margin:  auto;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  transform: translate(65%,-310%);
+  filter: none;
+}
+
+#contacto {
+  display: none;
+  position: relative;
+  color: rgb(9, 7, 15);
+  z-index: 9;
+  font-size: 20px;
+  box-shadow: 12px 12px 6px 0px #000;
+  background: linear-gradient(rgb(239, 239, 239), rgb(98, 96, 96));
+  width: 350px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: auto;
+  border-radius: 10px;
+  border: 2px solid #000000;
+  transform: translate(73%,-515%);
+  filter: none;
+}
+
+
